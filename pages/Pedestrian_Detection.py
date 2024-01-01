@@ -5,7 +5,7 @@ from PIL import Image
 import tempfile
 from keras.models import load_model
 
-model = load_model('D:\\Productive\\My_Programs\\Visual Studio Code\\Python Programming\\NULLCLASS ML INTERNSHIP\\Streamlit Web App\\Pedestrian_Detector.h5')
+model = load_model('Pedestrian_Detector.h5')
 
 flag = True
 
@@ -39,7 +39,7 @@ if a:
 def pred_video(file_path):
     cap = cv2.VideoCapture(file_path)
 
-    pedestrian_classifier = 'D:\\Productive\\My_Programs\\Visual Studio Code\\Python Programming\\NULLCLASS ML INTERNSHIP\\Streamlit Web App\\pedestrian.xml'
+    pedestrian_classifier = 'pedestrian.xml'
 
     pedestrian_tracker = cv2.CascadeClassifier(pedestrian_classifier)
 
