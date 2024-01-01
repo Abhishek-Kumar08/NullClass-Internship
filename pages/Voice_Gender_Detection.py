@@ -1,7 +1,6 @@
 import streamlit as st
 import librosa as rosa
 import numpy as np
-from cv2 import cv2
 from keras.models import load_model
 
 model = load_model('Voice_Gender_Detector.h5')
