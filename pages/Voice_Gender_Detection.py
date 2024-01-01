@@ -4,10 +4,10 @@ import numpy as np
 import cv2
 from keras.models import load_model
 
-model = load_model('D:\Productive\My_Programs\Visual Studio Code\Python Programming\NULLCLASS ML INTERNSHIP\Streamlit Web App\Voice_Gender_Detector.h5')
+model = load_model('Voice_Gender_Detector.h5')
 
 st.title('Voice Gender Detection')
-st.markdown('This machine learning model can detect the gender of the person on the basis of their voices. To use the model simply upload any .mp3 audio file without any background noise and the model with detct your gender.')
+st.markdown('This machine learning model can detect the gender of the person based on their voices. To use the model simply upload any .mp3 audio file without any background noise and the model with detct your gender.')
 
 st.write('\n')
 
