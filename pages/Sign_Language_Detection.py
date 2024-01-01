@@ -6,7 +6,7 @@ import tempfile
 import mediapipe as mp
 from keras.models import load_model
 
-model = load_model('D:\\Productive\\My_Programs\\Visual Studio Code\\Python Programming\\NULLCLASS ML INTERNSHIP\\Streamlit Web App\\SignLanguage_Detector.h5')
+model = load_model('SignLanguage_Detector.h5')
 
 flag = True
 
