@@ -5,7 +5,7 @@ from PIL import Image
 import tempfile
 from keras.models import load_model
 
-model = load_model('D:\\Productive\\My_Programs\\Visual Studio Code\\Python Programming\\NULLCLASS ML INTERNSHIP\\Streamlit Web App\\Human_Activity_Recognition.h5')
+model = load_model('Human_Activity_Recognition.h5')
 
 flag = True
 
