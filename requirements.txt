@@ -1,0 +1,8 @@
+numpy==1.26.2
+opencv-python==4.9.0.80
+pillow==10.1.0
+librosa==0.10.1
+tempfile
+mediapipe==0.10.9
+streamlit==1.29.0
+tensorflow==2.15.0
