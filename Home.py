@@ -3,7 +3,7 @@ import streamlit as st
 c1,c2,c3 = st.columns(3)
 c2.title('NULLCLASS')
 c1,c2,c3 = st.columns([1,4,1])
-c2.subheader('NULLCLASS EDTECH PRIVATE ')
+c2.subheader('NULLCLASS EDTECH PRIVATE LIMITED')
 c2.write('\n')
 c1,c2,c3 = st.columns([1,7,1])
 c2.header('Machine Learning Developer Intern')
